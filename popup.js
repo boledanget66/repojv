@@ -1,3 +1,23 @@
+<script>//PopUnder Power
+//Credit notice must stay intact for use.
+
+//Paste this entire javascript between the <head> & </head> tags of your page,
+//or option 2: Save it as an external file, "popunder.js", and call it from between
+//the <head>&</head> tags of the parent page, with this command:
+// <script src="/popunder.js" LANGUAGE="JAVASCRIPT">
+
+
+// Visit http://www.mikenew.net/downloads/scripts.asp for more scripts.
+// by Mike New, with special thanks to
+// Jeff Phillips of http://classadrivers.com, for some good mods
+// If you use this script, or make it better, I'd love to see it in action! webmaster@mikenew.net
+
+
+
+// Begin. Specify URLs to randomly select from and pop-under. Add or take away freely.
+var popunder=new Array()
+
+
 popunder[0]="http://www.mikenew.net"
 
 
@@ -62,3 +82,4 @@ if (one_time==0)
 load_pop_power()
 else
 loadornot()
+</script>
